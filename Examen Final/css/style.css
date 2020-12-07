@@ -1,0 +1,84 @@
+html{
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    margin: 0;
+    font-family: "Segoe UI", 'Roboto';
+}
+
+.maincontainer{
+    display: flex;
+    height:100%;
+}
+
+.formlogin{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 3em;
+    background-color: gray;
+    -webkit-box-shadow: 5px 5px 15px -1px #000000; 
+    box-shadow: 5px 5px 15px -1px #000000;
+}
+
+.logocontainer{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 1.5em;
+}
+
+.iconform{
+color: white;
+font-size: 4em;
+margin: auto;
+}
+
+.colorwhite::placeholder{
+color: white!important;
+opacity: 1;
+}
+
+a .colorwhite:hover{
+    color: white;
+}
+.colorwhite{
+    color: white;
+}
+
+.btnsign{
+    margin: auto;
+}
+
+.groupflexrow{
+    display: flex;
+}
+
+.aregist{
+    color: white;
+    font-size: .8em;
+    cursor: pointer;
+}
+.aregist:hover{
+    color: white;
+}
+
+.titlelogreg{
+    color: white;
+    font-size: 1.5em;
+}
+
+.btnver {
+
+}
+
+.btnEditar {
+
+}
+
+.rotate-center{-webkit-animation:rotate-center 10s linear 1 both;
+                animation:rotate-center 10s linear 1 both}
+ @-webkit-keyframes rotate-center{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes rotate-center{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}
